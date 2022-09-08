@@ -1,0 +1,151 @@
+body {
+    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+        
+}
+
+#texto-visita {
+    text-align: left;
+    
+}
+
+.totalproducto {
+    
+    border: 8px solid #ebebeb;
+    text-align: center;
+    background-color: white;
+}
+
+#top {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;    
+}
+
+
+#logo{
+    width: 20vw;
+    height: 15vh;
+}
+
+#busqueda {
+    
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;  
+   
+}
+
+#barra {
+  width: 550px;
+  height: 50px;
+  background: white;
+  border: none;
+  font-size: 10pt;
+  color: #63717f;
+  padding-left: 45px;
+}
+
+.grilla-superior2{
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    flex-direction: row;
+}
+
+#ayuda {
+    flex-grow: 0.5;
+}
+
+header {
+    
+    background-color: #eac926;
+}
+
+#banner {
+    width: 98vw;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    justify-items:center;
+    background-color: #ebebeb;
+    
+}
+
+footer{
+    
+    display:flex ;
+    text-align: center;
+
+    
+}
+
+.texto-footer {
+    width: 40vw;
+    padding: 5%;
+}
+
+.imgpro{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+  
+}
+
+
+#productos {
+    
+    text-align: center;
+    
+    
+}
+
+.cajapro {
+    display:inline-block;
+    border-top: 1px solid #ebebeb;
+    
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuento {
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.descripcion {
+    font-size: 16px;
+}
+
+.tit-footer {
+    font-weight:bold;
+}
+
+#iconos-footer {
+    font-size: 2em;
+    color: #03264C;
+}
+
+#icon-pro {
+    color:#39b54a;
+    border: 1.5px solid #39b54a; 
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: white;
+    margin: -30px;
+    align-items: flex-end;
+    margin-left: 92%;
+    padding:0px;
+}
