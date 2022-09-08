@@ -49,6 +49,12 @@ body {
   padding-left: 45px;
 }
 
+#burger{
+    text-align: center;
+    font-size: 2em;
+    color: #03264C;
+}
+
 .grilla-superior2{
     display: flex;
     justify-content: space-around;
@@ -149,3 +155,56 @@ footer{
     margin-left: 92%;
     padding:0px;
 }
+
+@media (min-width: 361px) {
+    .totalproducto{
+        box-shadow: 0px 0px 10px rgb(100 100 100);
+    }
+    #burger{
+        display: none;
+    }
+    
+}
+    
+
+@media (max-width: 361px)  {
+        .grilla-superior2{
+            display: none;
+        }
+        #top{
+            display: block;
+        }
+        #barra{
+            display: inline-block;
+            width: 80%;
+            height: 6vh;
+            border-radius: 5px;
+            border: none;
+        }
+        #logo{
+            display: inline-block;
+            width: 50%;
+        }
+        #cuotas{
+            display: inline;
+            font-size: smaller;
+        }
+        #texto-visita{
+            font-size: small;
+        }
+        .totalproducto{
+            height: 40%;
+        }
+        #banner{
+            width: 95vw;
+        }
+        footer{
+            display: inline-block;
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            
+        }
+        
+}
+
